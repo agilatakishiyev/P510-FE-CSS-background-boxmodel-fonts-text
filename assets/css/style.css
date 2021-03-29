@@ -1,0 +1,87 @@
+/* BACKGROUND PROPERTIES */
+/* body {
+    height: 2000px;
+} */
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.background {
+    /* 
+        three CSS property values that can be used with every property (like global attributes) 
+        initial
+        unset
+        inherit
+    */
+    /* width: 100%; */
+    /* height: 800px; */
+    /* background: url(https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.pixelstalk.net%2Fwp-content%2Fuploads%2F2016%2F03%2Fdesktop-nature-wallpaper-high-quality-wallpaper.jpg&f=1&nofb=1) center pink no-repeat fixed; */
+    /* background-color: pink; */
+    /* background-image: url(https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.pixelstalk.net%2Fwp-content%2Fuploads%2F2016%2F03%2Fdesktop-nature-wallpaper-high-quality-wallpaper.jpg&f=1&nofb=1); */
+    /* background-repeat: no-repeat; */
+    /* background-position: center; */
+    /* background-size: cover; */
+    /* background-attachment: fixed; */
+    /* background: 
+    linear-gradient(
+        to top right, 
+    rgba(200, 120, 50, .5),
+    rgba(70, 220, 25, .5),
+    rgba(30, 50, 120, .5)
+    ), url(https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.pixelstalk.net%2Fwp-content%2Fuploads%2F2016%2F03%2Fdesktop-nature-wallpaper-high-quality-wallpaper.jpg&f=1&nofb=1); */
+}
+
+/* #grad {
+    width: 100%;
+    height: 600px;
+    background-image: radial-gradient(#fedab3 5%, rgb(120, 50, 75) 20%, green 50%);
+} */
+
+
+/* TEXT properties */
+.paragraph {
+    /* text-align: center; */
+    /* width: 200px; */
+    /* height: 400px; */
+    /* text-decoration: underline; */
+    /* text-shadow: 3px 6px 10px black; */
+    /* text-transform: capitalize; */
+    /* font-style: italic; */
+    /* font-weight: bold; */
+    /* text-indent: 100px; */
+    /* line-height: 25px; */
+    /* letter-spacing: 2px; */
+    /* word-wrap: break-word; */
+    /* overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis; */
+    /* writing-mode: vertical-lr; */
+}
+
+/* .link {
+    text-decoration: none;
+} */
+
+.box-model {
+    width: 300px;
+    height: 300px;
+    border: 2px solid red;
+    /* padding: 40px 100px 50px 100px; */
+    /* padding: 40px 100px; */
+    /* margin: 40px 100px 50px 100px; */
+    margin: 50px auto;
+}
+
+.box-model .box-model__inner {
+    width: 150px;
+    height: 150px;
+    border: 1px solid black;
+    background-color: black;
+    margin: 25% auto;
+}
+
+/* 
+p {
+    text-align: center;
+} */
